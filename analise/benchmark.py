@@ -105,7 +105,7 @@ def main():
     if args.completo:
         grades = [(100, 100), (200, 200), (300, 300)]
         percentuais = [0.02, 0.05, 0.10]
-        threads_lista = [1, 2, 4, 8]
+        threads_lista = [1, 2, 4]
         workers_lista = [1, 2, 4]
         geracoes = 50
     else:
