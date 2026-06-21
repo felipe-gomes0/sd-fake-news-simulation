@@ -154,17 +154,40 @@ Comportamento esperado em máquina multi-core:
 
 ---
 
-## Configuração experimental (preencher)
+## Configuração experimental (3 cenários de teste)
 
+Ambiente Linux 
 | Item                      | Valor                          |
 |---------------------------|--------------------------------|
-| Processador               | __________________________     |
-| Núcleos físicos / lógicos | _____ / _____                  |
-| Memória RAM               | _____ GB                       |
-| Sistema operacional       | __________________________     |
+| Processador               | Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz     |
+| Núcleos físicos / lógicos | 4 / 8                  |
+| Memória RAM               | 16 GB DDR4                       |
+| Sistema operacional       | Debian GNU/Linux 13 (trixie)     |
 | Linguagem                 | Python                         |
-| Versão do interpretador   | `python --version` → ________  |
-| Ambiente de execução      | __________________________     |
+| Versão do interpretador   | `python --version` →  3.13.5  |
+| Ambiente de execução      | Local     |
+
+Ambiente MacOS
+| Item                      | Valor                          |
+|---------------------------|--------------------------------|
+| Processador               | Mac M4      |
+| Núcleos físicos / lógicos | 10  / 16                  |
+| Memória RAM               | 16 GB DDR5                    |
+| Sistema operacional       | MacOS Tahoe 26.5.1     |
+| Linguagem                 | Python                         |
+| Versão do interpretador   | `python --version` → 3.14.6  |
+| Ambiente de execução      | Local     |
+
+Ambiente Windows 11
+| Item                      | Valor                          |
+|---------------------------|--------------------------------|
+| Processador               | Intel i5-12400f     |
+| Núcleos físicos / lógicos | 6 / 12                  |
+| Memória RAM               | 32 GB Ram DDR5                      |
+| Sistema operacional       | Windows 11     |
+| Linguagem                 | Python                         |
+| Versão do interpretador   | `python --version` → 3.11.9  |
+| Ambiente de execução      | Local     |
 
 ---
 
