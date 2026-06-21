@@ -87,7 +87,7 @@ python simulacao/FakeNews_melhorias.py --influenciadores 0.01 --resistentes 0.10
 python analise/testar_corretude.py
 ```
 
-### 6) Reproduzir resultados, gráficos e PDF  ⟵ rode na máquina de teste do grupo
+### 6) Reproduzir resultados, gráficos e PDF 
 ```bash
 python analise/benchmark.py            # rápido  (ou: python analise/benchmark.py --completo)
 python analise/gerar_graficos.py
